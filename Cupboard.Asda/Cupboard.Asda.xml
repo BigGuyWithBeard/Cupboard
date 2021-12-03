@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cupboard.Asda</name>
+    </assembly>
+    <members>
+        <member name="T:Cupboard.Asda.Scraper">
+            <summary>
+            Class to scrape content from asda.com
+            </summary>
+        </member>
+        <member name="M:Cupboard.Asda.Scraper.TestMe">
+            <summary>
+            Tests me.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

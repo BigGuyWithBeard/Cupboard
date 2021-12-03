@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cupboard.Models</name>
+    </assembly>
+    <members>
+        <member name="T:Cupboard.Models.Item">
+            <summary>
+                an Item represents a general cupboard Item, as opposed to a specific <see cref="T:Cupboard.Models.Product"></see>, ie 'Bread' as opposed to the specific 'Warburtons Farmhouse'
+            </summary>
+        </member>
+        <member name="P:Cupboard.Models.Item.Id">
+            <summary>
+            primary identifier
+            </summary>
+        </member>
+        <member name="P:Cupboard.Models.Item.Name">
+            <summary>
+            name of item
+            </summary>
+        </member>
+        <member name="T:Cupboard.Models.Product">
+            <summary>
+            a Product represents a specific version of a general <see cref="T:Cupboard.Models.Item"/>, ie 'Warburtons Farmhouse' as opposed to the general 'Bread'
+            </summary>
+        </member>
+        <member name="P:Cupboard.Models.Product.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>
+            The identifier.
+            </value>
+        </member>
+        <member name="P:Cupboard.Models.Product.ItemId">
+            <summary>
+            Gets or sets the item identifier.
+            </summary>
+            <value>
+            The item identifier.
+            </value>
+        </member>
+        <member name="T:Cupboard.Models.Store">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
